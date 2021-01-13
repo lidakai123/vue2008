@@ -5,9 +5,18 @@ import VueRouter from 'vue-router'
 import center from './routers/center'
 import filmRouter from "./routers/film";
 import cinemaRouter from "./routers/cinema";
+import Home from "@/views/home/Shouye";
 Vue.use(VueRouter)
 
 const routes = [
+  // {
+  //   path:'/',
+  //   redirect:'/views/home/Shouye'
+  // },
+  {
+    path:'/',
+    component:Home
+  },
   ...center,
   ...filmRouter,
   cinemaRouter,

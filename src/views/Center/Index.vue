@@ -246,4 +246,7 @@ export default {
 .d{
     font-size: 20px;
 }
+.center-view .avatar{
+    background-color: var(--color-tint);
+}
 </style>

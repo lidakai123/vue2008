@@ -6,6 +6,7 @@ import axios from "@/api/http";
 
 
 Vue.prototype.$http = axios;
+Vue.prototype.$eventBus = new Vue()
 Vue.config.productionTip = false
 
 let jwt = localStorage.getItem("_token");

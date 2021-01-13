@@ -1,10 +1,10 @@
-import Films from "@/views/Films/Index";
+import Home from "@/views/home/Shouye";
 import Detail from "@/views/Films/Detail";
 
 var film = [
     {
-        path: "/films",
-        component: Films,
+        path: "/home",
+        component: Home,
     },
     {
         path: "/film/:filmId",
